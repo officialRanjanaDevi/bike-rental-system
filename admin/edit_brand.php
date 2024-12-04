@@ -1,5 +1,5 @@
 <?php
-
+require('authentication.php');
 include "../shared/connection.php";
 include "template.html"; // Assuming this includes your HTML template
 

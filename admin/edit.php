@@ -1,5 +1,6 @@
 <?php
 // Include the database connection file
+require('authentication.php');
 include "../shared/connection.php";
 
 // Check if form data and files are set

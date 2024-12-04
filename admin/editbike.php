@@ -1,4 +1,5 @@
 <?php
+require('authentication.php');
    include "authentication.php";
 $id = $_POST['id'];
 $targetDir = "../shared/images/";

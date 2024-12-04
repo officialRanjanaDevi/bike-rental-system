@@ -1,5 +1,5 @@
 <?php
-
+require('authentication.php');
 include "../shared/connection.php";
 
 $sql_result_brands = mysqli_query($conn, "SELECT * FROM brand");

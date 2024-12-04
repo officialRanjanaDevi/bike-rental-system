@@ -1,4 +1,5 @@
 <?php
+require('authentication.php');
 include "../shared/connection.php";
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
